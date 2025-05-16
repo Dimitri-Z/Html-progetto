@@ -47,6 +47,19 @@ ol{
     border: 10px groove #7f8c8d;
 }
 
+img, table {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
 @media (min-width: 768px) {
     p {
         font-size: 20px;
