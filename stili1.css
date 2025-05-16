@@ -1,48 +1,58 @@
 body{
-    background-color: #7802bd;
+  background-color: #7802bd;
 }
 
 p{
-    font: bold serif, sans-serif;
-    font-size: 30px;
-    color:aliceblue
+  font: bold serif, sans-serif;
+  font-size: 18px; /* Diminuita la dimensione del testo per schermi piccoli */
+  color:aliceblue;
+  word-wrap: break-word; /* Forza il testo ad andare a capo */
 }
 
 h2{
-    border-width: 10px;
-    border-style: groove;
-    border-color: black;
+  border-width: 5px; /* Ridotto il bordo per schermi piccoli */
+  border-style: groove;
+  border-color: black;
+  font-size: 1.5em; /* Dimensione relativa per adattarsi */
 }
 
 H1{
-    font-family: arial, verdana, sans-serif;
-    color:aliceblue
+  font-family: arial, verdana, sans-serif;
+  color:aliceblue;
+  font-size: 2em; /* Dimensione relativa per adattarsi */
+  word-wrap: break-word; /* Forza il testo ad andare a capo */
 }
 
 h2{
-    color:aliceblue
+  color:aliceblue;
 }
 
 ol{
-    color: aliceblue;
-    font-size: 30px;
+  color: aliceblue;
+  font-size: 18px; /* Diminuita la dimensione del testo per schermi piccoli */
 }
 
 table{
-    border-width: 10px;
-    border-style: groove;
-    border-color: black;
+  border-width: 5px; /* Ridotto il bordo per schermi piccoli */
+  border-style: groove;
+  border-color: black;
+  width: 100%; /* La tabella occupa tutta la larghezza */
 }
 
 ol{
-    border-width: 10px;
-    border-style: groove;
-    border-color: black;
+  border-width: 5px; /* Ridotto il bordo per schermi piccoli */
+  border-style: groove;
+  border-color: black;
 }
 
 .contenuto-principale {
-    width: 90%;
-    max-width: 800px;
-    margin: 0 auto;
-    border: 10px groove #7f8c8d;
+  width: 95%; /* Aumentata la larghezza per schermi piccoli */
+  max-width: none; /* Rimosso il limite massimo di larghezza */
+  margin: 10px auto; /* Aggiunto un po' di margine sopra e sotto */
+  border: 5px groove #7f8c8d; /* Ridotto il bordo per schermi piccoli */
+}
+
+img {
+  max-width: 100%; /* Le immagini non superano la larghezza del contenitore */
+  height: auto; /* Mantiene le proporzioni dell'immagine */
 }
