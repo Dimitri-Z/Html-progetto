@@ -1,90 +1,71 @@
-body{
-  background-color: #7802bd;
+body {
+    background-color: #7802bd;
+    margin: 0;
+    padding: 0;
 }
 
-/* Stili predefiniti (per schermi più grandi, come PC) */
-p{
-  font: bold serif, sans-serif;
-  font-size: 30px;
-  color:aliceblue;
-  word-wrap: break-word;
+p {
+    font: bold 4vw serif, sans-serif; /* 4% della larghezza dello schermo */
+    color: aliceblue;
 }
 
-h2{
-  border-width: 10px;
-  border-style: groove;
-  border-color: black;
-  font-size: 2em;
+h1 {
+    font-family: arial, verdana, sans-serif;
+    color: aliceblue;
+    font-size: 6vw;
 }
 
-H1{
-  font-family: arial, verdana, sans-serif;
-  color:aliceblue;
-  font-size: 3em;
-  word-wrap: break-word;
+h2 {
+    border-width: 10px;
+    border-style: groove;
+    border-color: black;
+    color: aliceblue;
+    font-size: 5vw;
 }
 
-h2{
-  color:aliceblue;
+ol {
+    color: aliceblue;
+    font-size: 4vw;
+    border-width: 10px;
+    border-style: groove;
+    border-color: black;
 }
 
-ol{
-  color: aliceblue;
-  font-size: 30px;
-}
-
-table{
-  border-width: 10px;
-  border-style: groove;
-  border-color: black;
-  width: auto; /* Adatta la larghezza al contenuto su schermi grandi */
-}
-
-ol{
-  border-width: 10px;
-  border-style: groove;
-  border-color: black;
+table {
+    border-width: 10px;
+    border-style: groove;
+    border-color: black;
 }
 
 .contenuto-principale {
-  width: 90%;
-  max-width: 800px;
-  margin: 0 auto;
-  border: 10px groove #7f8c8d;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 10px groove #7f8c8d;
 }
 
-/* Media Query per schermi con una larghezza massima di 600px (tipicamente telefoni) */
-@media (max-width: 600px) {
-  p{
-    font-size: 18px;
-  }
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
-  h1{
-    font-size: 2em;
-  }
+/* Media query per schermi grandi (desktop) */
+@media (min-width: 768px) {
+    p {
+        font-size: 20px;
+    }
 
-  h2{
-    font-size: 1.5em;
-    border-width: 5px;
-  }
+    h1 {
+        font-size: 32px;
+    }
 
-  ol{
-    font-size: 18px;
-  }
+    h2 {
+        font-size: 26px;
+    }
 
-  table{
-    border-width: 5px;
-    width: 100%;
-  }
-
-  ol{
-    border-width: 5px;
-  }
-
-  .contenuto-principale {
-    width: 95%;
-    max-width: none;
-    margin: 10px auto;
-    border: 5px groove #7f8c8d;
-  }
+    ol {
+        font-size: 20px;
+    }
 }
