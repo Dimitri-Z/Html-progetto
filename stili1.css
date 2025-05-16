@@ -1,0 +1,48 @@
+body{
+    background-color: #7802bd;
+}
+
+p{
+    font: bold serif, sans-serif;
+    font-size: 30px;
+    color:aliceblue
+}
+
+h2{
+    border-width: 10px;
+    border-style: groove;
+    border-color: black;
+}
+
+H1{
+    font-family: arial, verdana, sans-serif;
+    color:aliceblue
+}
+
+h2{
+    color:aliceblue
+}
+
+ol{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+table{
+    border-width: 10px;
+    border-style: groove;
+    border-color: black;
+}
+
+ol{
+    border-width: 10px;
+    border-style: groove;
+    border-color: black;
+}
+
+.contenuto-principale {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 10px groove #7f8c8d;
+}

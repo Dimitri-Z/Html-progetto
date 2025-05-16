@@ -1,0 +1,22 @@
+body{
+    background: #000000
+}
+
+p{
+    font: italic bold serif, sans-serif;
+    color:aliceblue
+}
+
+H1{
+    font-family: arial, verdana, sans-serif;
+    color:aliceblue
+}
+
+h3{
+    color:aliceblue
+}
+
+a:link{color: aliceblue;}
+a:visited{color: antiquewhite;}
+a:active{color: blue}
+a:hover{color:blueviolet}
