@@ -59,6 +59,15 @@ img {
     margin: 0 auto;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+p, h1, h2, ol {
+    word-wrap: break-word;
+}
+
+
 
 @media (min-width: 768px) {
     p {
