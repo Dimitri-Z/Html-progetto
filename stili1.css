@@ -56,3 +56,48 @@ img {
   max-width: 100%; /* Le immagini non superano la larghezza del contenitore */
   height: auto; /* Mantiene le proporzioni dell'immagine */
 }
+
+table img {
+      width: 100px;
+      cursor: pointer;
+    }
+
+    /* Nascondi il checkbox */
+    #zoom-toggle {
+      display: none;
+    }
+
+    /* Modal nascosta di default */
+    .modal {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    /* Mostra la modal quando il checkbox è attivo */
+    #zoom-toggle:checked + .modal {
+      display: flex;
+    }
+
+    .modal img {
+      max-width: 90%;
+      max-height: 90%;
+      z-index: 1001;
+    }
+
+    /* Cursore per cliccare ovunque e chiudere */
+    .modal::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+  </style>
