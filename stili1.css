@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+p{
+    font-family: serif, sans-serif
+}
+
 p, h1, h2, ol {
     color: aliceblue;
     word-wrap: break-word;
