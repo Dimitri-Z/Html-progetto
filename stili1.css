@@ -3,32 +3,30 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    text-align: justify;
+    font-family: Georgia, serif;
 }
 
-p{
-    font-family: georgia;
-    text-align: justify;
+p {
+    font-family: Georgia, serif;
 }
 
 p, h1, h2, ol {
-    font-style: italic;
     color: aliceblue;
     word-wrap: break-word;
     font-size: clamp(1rem, 2.5vw, 30px);
 }
 
 h1 {
-    font-family: georgia;
+    font-family: Arial, Verdana, sans-serif;
 }
 
 h2 {
-    font-family: georgia;
     border: 10px groove black;
 }
 
 ol {
     border: 10px groove black;
-    text-align: justify;
 }
 
 table {
@@ -64,7 +62,7 @@ img {
 
 .contenuto-principale {
     width: 90%;
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 0 auto;
     border: 10px groove #7f8c8d;
 }
