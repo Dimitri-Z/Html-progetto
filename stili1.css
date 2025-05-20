@@ -6,30 +6,23 @@ body {
 }
 
 p{
-    font-family: serif, sans-serif;
+    font-family: georgia, sans-serif;
     text-align: justify;
-}
-
-body{
-    text-align:justify;
 }
 
 p, h1, h2, ol {
     color: aliceblue;
     word-wrap: break-word;
     font-size: clamp(1rem, 2.5vw, 30px);
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 h1 {
-    font-family: Arial, Verdana, sans-serif;
-    text-align: justify;
+    font-family: georgia, Arial, Verdana, sans-serif;
 }
 
 h2 {
+    font-family: georgia;
     border: 10px groove black;
-    text-align: justify;
 }
 
 ol {
