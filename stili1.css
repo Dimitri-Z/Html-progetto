@@ -6,7 +6,11 @@ body {
 }
 
 p{
-    font-family: serif, sans-serif
+    font-family: serif, sans-serif;
+}
+
+p{
+    text-align:justify;
 }
 
 p, h1, h2, ol {
