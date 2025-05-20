@@ -19,6 +19,7 @@ p, h1, h2, ol {
     word-wrap: break-word;
     font-size: clamp(1rem, 2.5vw, 30px);
     text-align: justify;
+    text-justify: inter-word;
 }
 
 h1 {
