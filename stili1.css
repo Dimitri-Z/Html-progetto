@@ -10,7 +10,8 @@ p{
 }
 
 p{
-    text-align:justify;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 p, h1, h2, ol {
