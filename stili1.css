@@ -6,18 +6,19 @@ body {
 }
 
 p{
-    font-family: georgia, sans-serif;
+    font-family: georgia;
     text-align: justify;
 }
 
 p, h1, h2, ol {
+    font-style: italic;
     color: aliceblue;
     word-wrap: break-word;
     font-size: clamp(1rem, 2.5vw, 30px);
 }
 
 h1 {
-    font-family: georgia, Arial, Verdana, sans-serif;
+    font-family: georgia;
 }
 
 h2 {
