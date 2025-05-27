@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    text-align: justify;
+    text-align: "justify";
     font-family: Georgia, serif;
 }
 
