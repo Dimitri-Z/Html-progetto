@@ -18,8 +18,8 @@ h3{
 
 a:link{color: aliceblue;}
 a:visited{color: cipria;}
-a:active{color: blue}
-a:hover{color: blueviolet}
+a:active{color: blue;}
+a:hover{color: blueviolet;}
 
 @media (min-width: 768px) {
     p {
