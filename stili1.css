@@ -21,12 +21,8 @@ h1 {
     font-family: Arial, Verdana, sans-serif;
 }
 
-h2 {
-    border: 10px groove black;
-}
-
 ol {
-    border: 10px groove black;
+    border: 10px double black;
 }
 
 table {
