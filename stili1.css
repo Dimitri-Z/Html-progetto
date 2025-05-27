@@ -26,7 +26,7 @@ ol {
 }
 
 table {
-    border: 10px groove black;
+    border: 10px double black;
     max-width: 100%;
     height: auto;
 }
